@@ -11,7 +11,7 @@ describe('Función factorial', () => {
   });
 
   test('Factorial de número negativo lanza error', () => {
-    expect(() => factorial(-1)).toThrow("No existe factorial de números negativos");
+    expect(() => factorial(-1)).toThrow('No existe factorial de números negativos');
   });
 });
 
@@ -25,6 +25,6 @@ describe('Función fibonacci', () => {
   });
 
   test('Fibonacci de número negativo lanza error', () => {
-    expect(() => fibonacci(-1)).toThrow("El número debe ser positivo");
+    expect(() => fibonacci(-1)).toThrow('El número debe ser positivo');
   });
 });
